@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_face_detect_photo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jozzee.facedetection.activity.FaceDetectPhotoActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- <com.jozzee.facedetection.ui.DetectPhotoView
+         android:id="@+id/detect_photo_view"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_above="@+id/take_photo_btn"
+         android:layout_below="@+id/appbar"
+         android:adjustViewBounds="true"
+         android:src="@raw/face" />-->
+    <com.jozzee.facedetection.ui.PhotoFaceDetectionView
+        android:id="@+id/detect_photo_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/take_photo_btn"
+        android:layout_below="@+id/appbar" />
+
+
+    <Button
+        android:id="@+id/take_photo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_toRightOf="@+id/or"
+        android:text="Take Photo" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="or" />
+
+    <Button
+        android:id="@+id/from_gallery_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_toLeftOf="@+id/or"
+        android:text="From Gallery" />
+</RelativeLayout>

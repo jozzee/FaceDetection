@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Face Detection</string>
+
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+
+    <!-- A -->
+    <!-- B -->
+    <!-- C -->
+    <!-- D -->
+    <!-- E -->
+    <!-- F -->
+    <string name="face_detect_photo">Face Detection from Photo</string>
+    <!-- G -->
+    <!-- H -->
+    <!-- I -->
+    <!-- J -->
+    <!-- K -->
+    <!-- L -->
+    <!-- M -->
+    <!-- N -->
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <!-- O -->
+    <string name="ok">OK</string>
+    <!-- P -->
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <!-- Q -->
+    <!-- W -->
+    <!-- R -->
+    <!-- S -->
+    <!-- T -->
+    <!-- U -->
+    <!-- V -->
+    <!-- X -->
+    <!-- Y -->
+    <!-- Z -->
+
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.jozzee.facedetection.activity.MainActivity">
+
+    <Button
+        android:id="@+id/face_detect_photo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Face Detect in Photo"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/face_tracker_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/face_detect_photo_btn"
+        android:layout_centerHorizontal="true"
+        android:text="Face Tracker"
+        android:textAllCaps="false" />
+</RelativeLayout>
